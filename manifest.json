@@ -1,0 +1,20 @@
+{
+    "manifest_version": 2,
+    "name": "Meet Controller",
+    "version": "1.0",
+  
+    "description": "Control Meet.",
+  
+    "icons": {
+      "48": "icons/meet-48.png"
+    },
+  
+    "content_scripts": [
+      {
+        "matches": ["*://meet.google.com/*"],
+        "js": ["meet-controller.js"]
+      }
+    ]
+  
+  }
+  
