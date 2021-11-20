@@ -14,7 +14,7 @@ document.querySelectorAll("button").forEach(e => e.onclick = function(e) {
 
     if(e.target.id == "video") {
         video = !video;
-        document.querySelector("#video").innerHTML = audio ? "Mute video" : "Unmute video";
+        document.querySelector("#video").innerHTML = video ? "Mute video" : "Unmute video";
     }
 
     var badge = "";
