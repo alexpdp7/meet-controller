@@ -9,12 +9,10 @@
       "48": "icons/meet-48.png"
     },
   
-    "content_scripts": [
-      {
-        "matches": ["*://meet.google.com/*"],
-        "js": ["meet-controller.js"]
-      }
-    ],
+    "background": {
+        "scripts": ["meet-controller.js"]
+    },
+
     "browser_action": {
         "default_icon": "icons/meet-48.png",
         "default_title": "Control Meet",
