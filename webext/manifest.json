@@ -10,7 +10,7 @@
     },
   
     "background": {
-        "scripts": ["meet-controller.js"]
+        "page": "meet-controller.html"
     },
 
     "browser_action": {

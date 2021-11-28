@@ -1,0 +1,3 @@
+[submodule "webext/modules/paho.mqtt.javascript"]
+	path = webext/modules/paho.mqtt.javascript
+	url = https://github.com/eclipse/paho.mqtt.javascript.git
